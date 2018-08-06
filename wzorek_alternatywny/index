@@ -2,7 +2,7 @@
 	<html>
 		<head>
 			<meta charset="UTF-8">
-			<title>Zadanie domowe - slider zboku</title>
+			<title>Project</title>
 			<!--Plugins-->
 			<!--JQuery-->
 			<script src="plugins/jquery.js"></script>
