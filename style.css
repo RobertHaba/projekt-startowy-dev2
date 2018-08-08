@@ -139,7 +139,7 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
 
-/* Bartek style start */
+/* ================ Bartek style start ======================== */
 .page__section .page__section_heade {
   margin-bottom: 10em;
   text-align: center;
@@ -240,13 +240,13 @@ h4 {
   right: 0;
   width: 40%;
   height: 10%;
-  background: linear-gradient(
-    to right,
-    #7074c9,
-    #6b70c4,
-    #676dbf,
-    #6269ba,
-    #5e66b5
+  background-image: linear-gradient(
+    to left,
+    #5d62c9,
+    #6b6fca,
+    #787bca,
+    #8588ca,
+    #9294c9
   );
   z-index: -1;
 }
@@ -255,4 +255,4 @@ h4 {
   padding: 0;
   opacity: 0;
 }
-/* Bartek style end */
+/* ================ Bartek style end ======================== */
