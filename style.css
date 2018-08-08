@@ -141,7 +141,7 @@ font-family: 'Montserrat', sans-serif;
 
 /* Bartek style start */
 .page__section .page__section_heade {
-  margin-top: 1em;
+  margin-bottom: 10em;
   text-align: center;
 }
 .page__section .page__section_heade p {
@@ -164,29 +164,34 @@ font-family: 'Montserrat', sans-serif;
 .page__section .page__section_about .page__section_about_text {
   width: 30%;
   display: flex;
-  text-align: center;
+  justify-content: center;
   flex-direction: column;
   margin: 0 auto;
   position: relative;
+  align-content: flex-start;
 }
 .page__section .page__section_about .page__section_about_text h3 {
   font-size: 1em;
   font-weight: 100;
+  margin: 0;
+  margin-bottom: 2em;
 }
 .page__section .page__section_about .page__section_about_text h4 {
   font-size: 2em;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  margin: 0;
 }
 .page__section .page__section_about .page__section_about_text h3,
 h4 {
   display: flex;
-  align-content: flex-start;
-  margin: 10px;
 }
 .page__section .page__section_about .page__section_about_text p {
   display: flex;
   align-content: flex-start;
+  letter-spacing: 1px;
+  margin-top: 1em;
+  font-family: "Raleway", sans-serif;
 }
 .page__section .page__section_about .page__section_about_img_bacground {
   background-image: url("./img/photo-1511367667796-a88d106800b0.jpg");
@@ -204,6 +209,7 @@ h4 {
   align-content: flex-start;
   font-weight: 100;
   font-size: 1em;
+  margin-top: 4em;
 }
 .page__section_about_img_bacground_testimonial {
   background-color: #00ffff;
@@ -211,7 +217,7 @@ h4 {
   width: 80px;
   height: 80px;
   position: absolute;
-  top: 40%;
+  top: 55%;
   left: 48%;
   color: #fff;
   border-radius: 50%;
@@ -224,6 +230,29 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: rotate(180deg);
 }
-
+.page__section .page__section_about_img_bacground .color_gradient {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 10%;
+  background: linear-gradient(
+    to right,
+    #7074c9,
+    #6b70c4,
+    #676dbf,
+    #6269ba,
+    #5e66b5
+  );
+  z-index: -1;
+}
+.color_gradient h1 {
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+}
 /* Bartek style end */
