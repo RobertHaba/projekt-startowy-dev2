@@ -1,150 +1,145 @@
-    html,
-    body,
-    div,
-    span,
-    applet,
-    object,
-    iframe,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    blockquote,
-    pre,
-    a,
-    abbr,
-    acronym,
-    address,
-    big,
-    cite,
-    code,
-    del,
-    dfn,
-    em,
-    img,
-    ins,
-    kbd,
-    q,
-    s,
-    samp,
-    small,
-    strike,
-    strong,
-    sub,
-    sup,
-    tt,
-    var,
-    b,
-    u,
-    center,
-    dl,
-    dt,
-    dd,
-    ol,
-    ul,
-    li,
-    fieldset,
-    form,
-    label,
-    legend,
-    table,
-    caption,
-    tbody,
-    tfoot,
-    thead,
-    tr,
-    th,
-    td,
-    article,
-    aside,
-    canvas,
-    details,
-    embed,
-    figure,
-    figcaption,
-    footer,
-    header,
-    hgroup,
-    menu,
-    nav,
-    output,
-    ruby,
-    section,
-    summary,
-    time,
-    mark,
-    audio,
-    video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-    }
-    
-    li {
-        list-style-type: none;
-    }
-    /* RESET */
-    
-    .page {
-        background-color: #FFF;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .page__content {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .page__section,
-    .page__header,
-    .page__footer {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .page__section {
-        background-color: #FFF;
-      
-    }
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
-    .page__layout {
-        width: 1200px;
-        height: 100%;
-    }
-    
-    .page__layout--full {
-        width: 100%;
-    }
-    
-    button {
-        border: none;
-        padding: 0;
-        margin: 0;
-    }
-    /* */
-    /*
+li {
+  list-style-type: none;
+}
+/* RESET */
+
+.page {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.page__content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.page__section,
+.page__header,
+.page__footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__section {
+  background-color: #fff;
+}
+
+.page__layout {
+  width: 1200px;
+  height: 100%;
+}
+
+.page__layout--full {
+  width: 100%;
+}
+
+button {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+/* */
+/*
 font-family: 'Roboto', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
 
 /* Bartek style start */
-.page__section {
-  display: flex;
-  flex-wrap: wrap;
-}
 .page__section .page__section_heade {
   margin-top: 1em;
   text-align: center;
@@ -212,22 +207,23 @@ h4 {
 }
 .page__section_about_img_bacground_testimonial {
   background-color: #00ffff;
-  display: block;
+  display: flex;
   width: 80px;
   height: 80px;
   position: absolute;
-  top: 50%;
-  left: 49%;
+  top: 40%;
+  left: 48%;
   color: #fff;
   border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 }
 .page__section_about_img_bacground_testimonial i {
   color: #fff;
   font-size: 1.3em;
-  display: grid;
-  justify-items: center;
-  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Bartek style end */
-    
