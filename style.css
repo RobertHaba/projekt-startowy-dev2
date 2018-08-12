@@ -1,144 +1,323 @@
 html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	 body{
+ font-family: 'Montserrat', sans-serif;
+ },
+	 div,
+	 span,
+	 applet,
+	 object,
+	 iframe,
+	 h1,
+	 h2,
+	 h3,
+	 h4,
+	 h5,
+	 h6,
+	 p,
+	 blockquote,
+	 pre,
+	 a,
+	 abbr,
+	 acronym,
+	 address,
+	 big,
+	 cite,
+	 code,
+	 del,
+	 dfn,
+	 em,
+	 img,
+	 ins,
+	 kbd,
+	 q,
+	 s,
+	 samp,
+	 small,
+	 strike,
+	 strong,
+	 sub,
+	 sup,
+	 tt,
+	 var,
+	 b,
+	 u,
+	 center,
+	 dl,
+	 dt,
+	 dd,
+	 ol,
+	 ul,
+	 li,
+	 fieldset,
+	 form,
+	 label,
+	 legend,
+	 table,
+	 caption,
+	 tbody,
+	 tfoot,
+	 thead,
+	 tr,
+	 th,
+	 td,
+	 article,
+	 aside,
+	 canvas,
+	 details,
+	 embed,
+	 figure,
+	 figcaption,
+	 footer,
+	 header,
+	 hgroup,
+	 menu,
+	 nav,
+	 output,
+	 ruby,
+	 section,
+	 summary,
+	 time,
+	 mark,
+	 audio,
+	 video {
+			 margin: 0;
+			 padding: 0;
+			 border: 0;
+			 font-size: 100%;
+			 font: inherit;
+			 vertical-align: baseline;
+	 }
+
+	 li {
+			 list-style-type: none;
+	 }
+	 /* RESET */
+
+	 .page {
+			 background-color: #FFF;
+			 padding: 0;
+			 margin: 0;
+	 }
+
+	 .page__content {
+			 width: 100%;
+			 height: auto;
+			 display: flex;
+			 flex-direction: column;
+	 }
+
+	 .page__section,
+	 .page__header,
+	 .page__footer {
+			 width: 100%;
+			 height: auto;
+			 display: flex;
+			 justify-content: center;
+			 align-items: center;
+	 }
+
+	 .page__section {
+			 background-color: #FFF;
+
+	 }
+
+	 .page__layout {
+			 width: 1200px;
+			 height: 100%;
+	 }
+
+	 .page__layout--full {
+			 width: 100%;
+	 }
+
+	 button {
+			 border: none;
+			 padding: 0;
+			 margin: 0;
+	 }
+	 /*Klasy Szymona - START */
+#tlo{
+	position:relative;
+ background: rgb(191,172,254);
+background: linear-gradient(90deg, rgba(191,172,254,1) 0%, rgba(160,137,253,1) 35%, rgba(121,95,255,1) 100%);
+}
+.stupki{
+ display:flex;
+}
+.stupki p{
+margin-right:240px;
+}
+.stupki ul{
+ display:flex;
+ margin-left:20px;
+ padding-left:20px;
+}
+.stupki li{
+ margin-left:20px;
+}
+.stupki a{
+ text-decoration:none;
+ color:#333;
+}
+.k_kredyt{
+ text-align:center;
+}
+.button{
+ border:1px solid #39e4ff;
+ background:#39e4ff;
+ border-radius:5px;
+ width:120px;
+ height:30px;
+ text-align:center;
+ padding:5px;
+ padding-top:16px;
+ color:#fff;
+ -webkit-box-shadow: 0px 2px 15px 2px rgba(0,0,0,0.2);
+box-shadow: 0px 2px 15px 2px rgba(0,0,0,0.2);
+margin:auto;
+transition: 1s ease;
+margin-bottom:200px;
+}
+.button:hover{
+ background:#2775f4;
+ color:#fff;
+ -webkit-transition: background 1s ease;
+-moz-transition: background 1s ease;
+-ms-transition: background 1s ease;
+-o-transition: background 1s ease;
+transition: background 1s ease;
+cursor:pointer;
+}
+#tit1{
+ text-align:center;
+ color:rgba(255,255,255, 0.8);
+ margin-top:50px;
+ text-shadow:1px 1px 1px #333;
+}
+.knefle1{
+ display:flex;
+}
+.kont1{
+ display:table;
+ margin:0 auto;
+}
+.knefle1 li{
+ background-color:#b9aafb;
+ height:60px;
+ width:30px;
+ border:1px solid rgba(0,0,0,0.1);
+ border-radius:5px;
+ text-align:center;
+ color:#fff;
+ padding:25px;
+ font-size:45px;
+}
+#knefel1{
+ margin-right:20px;
+}
+#knefel3_5{
+ margin-left:20px;
+}
+#tit2{
+	display:block !important;
+ text-align:center;
+ color:#fff;
+ text-shadow:1px 1px 1px #333;
+}
+.formula{
+ position:relative;
+}
+.center{
+ margin: auto;
+ display:block;
+ width:50%;
+ height:40px;
+}
+.center2{
+ position: absolute;
+	 right: 151px;
+	 top: 0px;
+	 width: 120px;
+	 height: 45px;
+	 background-color:#41e3fc;
+	 border:1px solid #41e3fc;
+	 border-radius:2px;
+	 color:#fff;
+	 cursor:pointer;
+}
+.ikony{
+ margin-top:150px;
+}
+.ikony ul{
+ display:flex;
+ justify-content: center;
+}
+.ikony li{
+	 background-color:rgba(255,255,255,0.7);
+	 border-radius:100%;
+	 border:10px solid rgba(255,255,255,0.1);
+	 margin:10px;
+	 padding:5px;
+	 color:rgba(160,137,253,1);
+}
+.aktywny{
+ border:3px solid #f00;
+ margin: auto;
+ display:block;
+ width:50%;
+ height:40px;
+}
+.finish{
+	border:3px solid #4286f4;
+  margin: auto;
+  display:block;
+  width:50%;
+  height:40px;
+}
+.square1 {
+	right:30px;
+	top:70px;
+	position:absolute;
+  height: 25px;
+  width: 25px;
+  background-color: rgba(121,95,255,1) 100%);
+  transform: rotate(45deg);
+  border:10px solid #3ce5f8;
+}
+.square2 {
+	left:20px;
+	bottom:30px;
+	position:absolute;
+  height: 25px;
+  width: 25px;
+  background-color: rgba(191,172,254,1) 0%;
+  transform: rotate(45deg);
+  border:10px solid #dfceff;
+}
+.dots1 {
+  height: 72px;
+	width:72px;
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(255,255,255,.47), rgba(255,255,255,.4) 4px, transparent 4px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(255,255,255,.4), rgba(255,255,255,.4) 4px, transparent 4px, transparent 100%);
+  background-size: 12px 12px;
+  background-color: rgba(121,95,255,1) 100%);
+	position:absolute;
+	right:20px;
+	bottom:30px;
+}
+.dots2 {
+	height: 128px;
+width: 128px;
+background-repeat: no-repeat;
+background-image: url("https://image.ibb.co/fKmgbK/arrow_of_dots.png");
+position: absolute;
+left: -28px;
+top: -25px;
+z-index: 1;
+transform: rotate(45deg);
 }
 
-li {
-  list-style-type: none;
-}
-/* RESET */
-
-.page {
-  background-color: #fff;
-  padding: 0;
-  margin: 0;
-}
-
-.page__content {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.page__section,
-.page__header,
-.page__footer {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.page__section {
-  background-color: #fff;
-}
-
-.page__layout {
-  width: 1200px;
-  height: 100%;
-}
-
-.page__layout--full {
-  width: 100%;
-}
-
-button {
-  border: none;
-  padding: 0;
-  margin: 0;
-}
-/* */
-/*
-font-family: 'Roboto', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
-*/
-
+/* Klasy Szymona - END */
 /* ================ Bartek style start ======================== */
 .page__section .page__section_heade {
   display: flex;
@@ -296,3 +475,10 @@ h4 {
   font-family: "Raleway", sans-serif;
 }
 /* ================ Bartek style end ======================== */
+
+	 /* */
+	 /*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
